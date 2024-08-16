@@ -35,8 +35,6 @@ for char in sentence:
                 encpos = (char_index + 5) % 26
                 encletter = loweralphachr[encpos]
                 encsentlist.append(encletter)
-                print(sentence)
-                print(''.join(encsentlist))
     else:
                 encsentlist.append(char)
 
